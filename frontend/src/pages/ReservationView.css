@@ -1,0 +1,63 @@
+/* TODO: Yoink from OrderView.css, adjust ASAP*/
+
+/* OrderView.css */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Five columns with equal width */
+    gap: 10px; /* Gap between grid items */
+    height: 200vh; /* Set the grid container's height to 100% of the viewport height */
+    background-color: #333;
+}
+
+.item {
+    border: 2px solid #000;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+}
+
+/*Customer info*/
+.info-section{
+    text-align: left;
+    padding-top: 10px;
+}
+
+.info-labels {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #dddddd;
+    border-radius: 5px;
+}
+
+.label {
+    font-size: 1.1em;
+    font-weight: 700;
+
+}
+.info-item-layout {
+    display: flex;
+    justify-content: space-between;
+    line-height: 2;
+    align-items: center;
+}
+
+.info-string{
+    font-size: 1em;
+    font-weight: 550;
+}
+
+/*Headers*/
+.header-section {
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    height: 1em;
+    font-size: 1em;
+    display: flex;
+    justify-content: space-between;
+    width:auto;
+    background-color: #000000;
+    
+}

@@ -1,0 +1,45 @@
+
+  
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 42.5vh auto;
+}
+  
+  form {
+    display: inline-block;
+  }
+  
+  label {
+    display: inline-block;
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  input {
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 10px;
+  }
+  
+  .button-clock-in-out {
+    display: inline-block;
+    background-color: #04AA6D;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .button-clock-in-out:hover {
+    background-color: #039a63;
+  }
+
+  .hello-text {
+    font-size: x-large;
+  }

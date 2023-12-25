@@ -1,0 +1,97 @@
+.grid-container {
+  display: grid;
+  grid-template-rows: 1fr 1fr; /* two rows with equal height */
+  grid-template-columns: repeat(5, 1fr); /* five columns with equal width */
+  gap: 10px; /* gap between grid items */
+  height: 95vh; /* set the grid container's height to 100% of the viewport height */
+  background-color: #333;
+  overflow-y: auto; /* allow scrolling if too many items */
+}
+
+.item {
+  border: 2px solid #000;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  background-color: white;
+  height: 42.5vh;
+  overflow: auto; /*allow scrolling if too many items*/
+}
+
+/*Orders*/
+.order-section{
+  text-align: left;
+  padding-top: 10px;
+}
+
+.order-labels {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #dddddd;
+  border-radius: 5px;
+  padding: 4px;
+}
+
+.order-special-notes {
+  display: flex;
+  width: 100%;
+  background-color: yellow;
+  border-radius: 5px;
+  padding: 4px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.label {
+  font-size: 1.1em;
+  font-weight: 700;
+
+}
+.order-item-layout {
+  display: flex;
+  justify-content: space-between;
+  line-height: 2;
+  align-items: center;
+}
+
+.dish-name{
+  font-size: 1em;
+  font-weight: 550;
+}
+.item-quantity {
+  font-size: 1.1em;
+  font-weight: 550;
+}
+
+
+
+/*Headers*/
+.header-section {
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  height: 2.5em;
+  font-size: 1em;
+  display: flex;
+  justify-content: space-between;
+  width:auto;
+  align-items: center;
+  background-color: rgb(0, 0, 0);
+  
+}
+
+/* clear button */
+.button-clear-order {
+  background-color: #04AA6D;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 5px 10px;
+  font-size: 16px;
+}
+
+.button-clear-order:hover {
+  background-color: #039a63;
+}
+  
