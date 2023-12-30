@@ -79,7 +79,6 @@ Oren
 Utsav
 Ryan
 Mykyta
-Ethan
 Quan
 Talyn
 
